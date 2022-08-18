@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body{
+    
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    background:  url(/images/bg-pattern-top.svg) no-repeat, url(images/bg-pattern-bottom.svg) no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    background-position-x: -230px, 677px;
+    background-position-y: -285px ,510px;
+    background-size: contain;
+    padding: 15px;
+    
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 14px 3px 33px 3px rgba(0,0,0,0.24); 
+box-shadow: 14px 3px 33px 3px rgba(0,0,0,0.24);
+}
+
+.img-top img{
+    border-radius: 10px 10px 0 0;
+}
+.img-victor img{
+    border-radius: 100px;
+    border: 5px solid white;
+    max-width: 100%;
+margin-top: -58px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.mid{
+    display:flex;
+flex-direction: column;
+    gap: 10px;
+    margin: 20PX 0 20PX 0;
+    font-size: 18px;
+}
+.nome{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    
+}
+.lugar{
+    color:  hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+.idade{
+    font-size: 18px;
+    margin-left: 8px;
+}
+hr{
+    width: 350px;
+    opacity: 30%;
+}
+.footer-card{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(229, 23%, 23%);
+    margin: 20px 0 20px 0;
+}
+.follow p{
+    width: 50%;
+    font-weight: 700;
+    font-size: 18px;
+    
+    
+}
+.likes p{
+    width: 50%;
+    font-weight: 700;
+}
+.photos p{
+    width: 50%;
+    
+    font-weight: 700;
+}
+span{
+    font-weight: 400; 
+    color:hsl(227, 10%, 46%);
+    font-size: 15px;
+}
+.attribution{
+font-size: 15px;
+
+}
